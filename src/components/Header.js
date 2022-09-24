@@ -26,10 +26,12 @@ const Header = () => {
           </span>
           Email
         </button>
-        <button as="a" href="https://www.linkedin.com/in/mangeshkchauhan/" className="linkedin">
-          <span className="linkedin-button-icon">
-            <img src={linkedin} alt="linkedin" />
-          </span>Linkedin</button>
+        <a href="https://www.linkedin.com/in/mangeshkchauhan/" target="_blank">
+          <button className="linkedin">
+            <span className="linkedin-button-icon">
+              <img src={linkedin} alt="linkedin" />
+            </span>Linkedin</button>
+        </a>
       </div>
     </div>
   );
