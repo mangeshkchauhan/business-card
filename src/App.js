@@ -5,12 +5,10 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="parent">
-      <div className="business-card">
-        <Header />
-        <MainContent />
-        <Footer />
-      </div>
+    <div className="business-card">
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
